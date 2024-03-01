@@ -1,9 +1,7 @@
 const express = require("express");
 const path = require("path");
-const fs = require("fs");
-const { emit } = require("process");
 const app = express();
-
+const port = 8000;
 
 //express specific nstuff
 app.use('/static' , express.static('static')); // For serving static files
@@ -15,8 +13,7 @@ app.set('views', path.join(__dirname, 'views'))//Set the views directory
  
 //PUG demo endpoint
 app.get("/" , (req,res)=>{
-    const con = "Alpha Karate"
-    const params ={'title' : 'Puck puck' , "content":con}
+    const params ={ }
     res.status(200).render('index.pug',params);
 });
 
