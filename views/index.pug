@@ -1,21 +1,43 @@
 doctype html
 html
   head
+    title Dance Academy
     style
       include ../static/style.css
   body
     nav#navbar 
         ul 
+            div#logo 
+              img(src="/static/logo.png", alt="adalogo")
+              | ADA
             li #[a(href="/") Home]
             li #[a(href="/") About]
             li #[a(href="/") Services]
             li #[a(href="/") Class]
             li #[a(href="/") Contact Us]
     section#introSection
-        | section for picture 
+        | EAT ,SLEEP ,DANCE REPEAT 
     
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+          h3 Dance Perfection
+            div.card-box 
+              div.card.img 
+              img(src="", alt="")
+        div.card 
+          h3 This ia a para
+            div.card-box 
+              div.card.img 
+              img(src="", alt="")
+        div.card 
+          h3 This ia a para
+            div.card-box 
+              div.card.img 
+              img(src="", alt="")
+              
     section#sponsorsSection 
-        | section for sponsors 
+        h2 section for sponsors
 
     footer#footer
         | our footer here 

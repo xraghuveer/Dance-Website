@@ -1,13 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 *{
     margin:0;
-    box-sizing: 0;
+    box-sizing: border-box;
     padding: 0;
 }
-
+#logo{
+    font-family: "Micro 5", sans-serif;
+    display: flex;
+    color: purple;
+    align-items: center;
+    margin: 0px 14px;
+    margin-right: 60px;
+}
+#logo img{
+    height: 50px;
+}
+#navbar{
+    font-family: "Kode Mono";
+    background-color:black;
+    padding: 18px 14px;
+}
 #navbar ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
 }
 
 #navbar li {
@@ -15,18 +32,58 @@
 }
 
 #navbar li a {
+    color: white;
     text-decoration: none;
-    padding: 3px 4px;
+    padding: 15px 25px;
+}
+#navbar li a:hover {
+    color: purple;
 }
 
 #introSection{
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    background: center / cover no-repeat url("../static/bg.jpg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:red;
-    height: 300px;
+    height: 450px;
+}
+
+#missionSection{
+    text-align: center;
+    background-color: black;
+    height:300px;
+
+}
+#missionSection h2{
+    color: white;
+}
+.card{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 15%;
+    margin: 23px 20px;
+    height: 209px;
+}
+.card h3{
+    color: aliceblue;
+    margin: 12px;
+    text-align: center;
 }
 
 #sponsorsSection{
-background-color: yellow;
-height:300px;
+    text-align: center;
+    background-color: black;
+    height:300px;
+}
+
+#sponsorsSection h2{
+    color: white;
 }
 
 #footer{
