@@ -72,9 +72,32 @@
 }
 .card h3{
     color: aliceblue;
-    margin: 12px;
+    margin: 25px 12px;
     text-align: center;
+    font-family: "Micro 5", sans-serif;
 }
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img{
+    height: 130px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content {
+padding: 0 10px;
+}
+.card-content p{
+font-size: 12px;
+}
+
 
 #sponsorsSection{
     text-align: center;
