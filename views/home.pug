@@ -1,0 +1,48 @@
+extends base.pug 
+
+block scripts 
+    script(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content      
+    section#introSection
+        | EAT, SLEEP, DANCE, REPEAT 
+    
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.png", alt="")
+                div.card-content 
+                    p Multiple Dance Styles
+        div.card 
+            h3 Hip-Hop
+            div.card-box 
+                div.card-img 
+                    img(src="/static/2.png", alt="")
+                div.card-content 
+                    p Learn from the best
+        div.card 
+            h3 Freestyle
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.png", alt="")
+                div.card-content 
+                    p Best Free Style Teachers
+              
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/fedex-logo-42681.png", alt="fedex-logo" , class="spImage")
+            img(src="/static/microsoft-logo-png-2420.png", alt="ms-logo" , class="spImage")
+            img(src="/static/png-apple-logo-9710.png", alt="apple-logo" , class="spImage")
+            img(src="/static/skype-logo-19881.png", alt="skype-logo" , class="spImage")
+
+    block content 
+    footer#footer
+        | Copyright © 2024 ada.com | All rights reserved

@@ -1,0 +1,20 @@
+doctype html
+html 
+    head 
+        title Alpha Dance Academy
+        block scripts 
+        block style
+    body 
+        nav#navbar 
+        ul 
+            div#logo 
+              img(src="/static/logo.png", alt="adalogo")
+              | ADA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class]
+            li #[a(href="/") Contact Us]
+        block content 
+        footer#footer
+            | Copyright © 2024 ada.com | All rights reserved
