@@ -56,12 +56,16 @@
 #missionSection{
     text-align: center;
     background-color: black;
-    height:300px;
+    height:350px;
 
 }
 #missionSection h2{
     font-family: "Kode Mono";
+    font-size: 1.5rem;
     color: white;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
 }
 .card{
     display: inline-block;
@@ -108,6 +112,7 @@ font-size: 12px;
 
 #sponsorsSection h2{
     font-family: "Kode Mono";
+    font-size: 1.5rem;
     color: white;
     text-align: center;
     padding-top: 12px;

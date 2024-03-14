@@ -1,4 +1,43 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 h1{
     text-align: center;
     margin: 12px 0;
+}
+.myForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    font-size: 15px;
+    font-style: italic;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid purple;
+    border-top-left-radius:24% ;
+    border-bottom-right-radius: 24% ;
+    outline: none;
+}
+
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: purple;
+    color: aliceblue;
+    cursor: pointer;
+    margin: 26px;
+}
+.container{
+    font-family: "Kode Mono";
+    margin: 40px 0;
+    min-height: 100vh;
 }
